@@ -1,0 +1,65 @@
+.ball {
+  margin: 1vw;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  box-shadow: -1.5vw 0 rgba(0, 0, 0, 0.1) inset;
+  animation: roll 3s ease-in-out infinite;
+  background: linear-gradient(
+    to bottom,
+    #e83e35 0%,
+    #e83e35 50.5%,
+    #ffffff 50.51%,
+    #ffffff 100%
+  );
+}
+
+.ball:after {
+  content: "";
+  position: absolute;
+  top: calc(10vw - 5vw);
+  left: 0;
+  width: 10vw;
+  height: 0.3vw;
+  background: #3f3f3f;
+}
+
+.ball:before {
+  content: "";
+  position: absolute;
+  top: 3.5vw;
+  left: 3vw;
+  width: 3vw;
+  height: 3vw;
+  border: solid 0.3vw #3f3f3f;
+  border-radius: 50%;
+  background: white;
+  z-index: 1;
+  box-shadow: 0 0 2vw -0.2vw #c62828 inset;
+  animation: button 3s ease infinite;
+}
+
+@keyframes roll {
+  from {
+    transform: rotate(0);
+  }
+  100%,
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes button {
+  from,
+  50%,
+  to {
+    box-shadow: 0 0 2vw -0.5vw #c62828 inset;
+  }
+
+  25%,
+  75% {
+    box-shadow: 0 0 10px -2px #1300ea inset;
+  }
+}

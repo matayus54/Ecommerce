@@ -1,0 +1,86 @@
+* {
+  font-family: "Akaya Telivigala", cursive;
+  text-transform: capitalize;
+}
+
+.alignmentRight {
+  text-align: right;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 calc(100vw - 100%);
+}
+
+.boton {
+  height: 5vh;
+  border-radius: 15px;
+  padding: 2vh 1vw 5vh;
+  font-size: 1.5vw;
+  color: #0b1f57;
+}
+
+.styleRounded {
+  width: 30vw;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 3vh 5vw 5vh;
+  outline: thick double #a0e7d8;
+}
+
+.styleText {
+  color: azure;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.containerFiles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.degraded {
+  background: linear-gradient(to bottom right, #261515, #113f4e);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.a {
+  box-shadow:
+    /* text-shadow:  */ 0 0 5px rgba(0, 178, 255, 1),
+    0 0 140px rgba(38, 104, 127, 1), 0 0 180px rgba(38, 104, 127, 1);
+}
+
+.r {
+  box-shadow:
+    /* text-shadow:  */ 0 0 5px rgb(255, 0, 157),
+    0 0 140px rgb(127, 38, 112), 0 0 180px rgb(127, 38, 112);
+}
+
+.v {
+  box-shadow:
+    /* text-shadow: */ 0 0 5px rgb(0, 255, 42),
+    0 0 140px rgb(38, 127, 72), 0 0 180px rgb(38, 127, 72);
+}
+
+.ao {
+  box-shadow:
+    /* text-shadow: */ 0 0 5px rgb(217, 255, 0),
+    0 0 140px rgb(114, 127, 38), 0 0 180px rgb(118, 127, 38);
+}
+
+.r {
+  box-shadow:
+    /* text-shadow: */ 0 0 5px rgb(255, 0, 0),
+    0 0 140px rgb(127, 41, 38), 0 0 180px rgb(127, 38, 38);
+}
+
+.m {
+  box-shadow:
+    /* text-shadow: */ 0 0 5px rgb(183, 0, 255),
+    0 0 140px rgb(112, 38, 127), 0 0 180px rgb(127, 38, 127);
+}

@@ -1,0 +1,349 @@
+@import "./neon.css";
+@import "./Pokedex.css";
+@import "./Checkbox.css";
+@import "./SpinnerPokeball.css";
+@import "./Modal.css";
+
+* {
+  font-family: "Akaya Telivigala", cursive;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.white05 {
+  background: hsla(0, 0%, 100%, 0.2);
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 calc(100vw - 100%);
+}
+.boton {
+  height: auto;
+  border-radius: 15px;
+  padding: 0.5vw;
+  font-size: 1vw;
+  color: #0b1f57;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pad {
+  padding: 0.2vw;
+}
+.pad3 {
+  padding: 3vw;
+}
+.pad-top {
+  padding-top: 3vw;
+}
+.pad-top1 {
+  padding-top: 0.5vw;
+}
+.mar {
+  margin: 1vw;
+}
+.mar-top3 {
+  margin-top: 3vw;
+}
+.mar3 {
+  margin: 3vw;
+}
+.marR {
+  margin-right: 3vw;
+}
+.marL {
+  margin-left: 3vw;
+}
+
+.mar-bottom {
+  margin: 1vw;
+  margin-bottom: 3vw;
+}
+
+.mar-bottom8 {
+  margin: 1vw;
+  margin-bottom: 8vw;
+}
+
+.pad-marR {
+  margin: 3vw 3vw;
+  padding: 0.2vw;
+}
+
+.pad-mar {
+  margin: 1vw auto;
+  padding: 0.2vw;
+}
+.pad-mar-01 {
+  margin: 0.1vw auto;
+  padding: 0.1vw;
+}
+
+.jC-center {
+  justify-content: center;
+}
+
+.jI-center {
+  justify-items: center;
+}
+.tA-left {
+  text-align: left;
+}
+.aC-center {
+  align-content: center;
+}
+.tA-center {
+  text-align: center;
+  justify-content: center;
+}
+
+.tA-right {
+  text-align: right;
+}
+.Alive {
+  background: rgb(1, 98, 18);
+}
+.Dead {
+  background: rgb(100, 15, 15);
+}
+.unknown {
+  background: rgb(111, 119, 120);
+}
+
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.b-f {
+  /* 
+  relative - absolute
+   */
+  top: 10px;
+  right: 20px;
+  font-size: 17px;
+  position: absolute;
+}
+.fsize {
+  font-size: 1vw;
+}
+.b-radius {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 1vw;
+  outline: thick double #a0e7d8;
+}
+
+.b-radius-S {
+  border-radius: 15px 10px;
+  padding: 0.5vw;
+}
+
+.t-title {
+  color: azure;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.t-titleS {
+  color: azure;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.t-normal {
+  color: azure;
+  font-size: 1vw;
+  font-weight: normal;
+}
+.t-normalS {
+  color: azure;
+  font-size: 0.8vw;
+  font-weight: normal;
+}
+
+.width50 {
+  width: 40%;
+}
+.width60 {
+  width: 60%;
+}
+.width70 {
+  width: 70%;
+}
+.width90 {
+  width: 90%;
+}
+.width100 {
+  width: 100%;
+}
+
+.width50vW {
+  width: 40vw;
+}
+
+.width100vW {
+  width: 90vw;
+}
+
+.height80vh {
+  height: 80vh;
+}
+.cFilas {
+  display: flex;
+  justify-content: space-around;
+}
+.cFilasEnd {
+  justify-content: end;
+}
+
+.cColumns {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: space-around;
+}
+
+.cColumns5 {
+  grid-template-columns: repeat(5, 1fr);
+  margin: 3vw;
+}
+
+.cColumns8 {
+  grid-template-columns: repeat(8, 1fr);
+  margin: 3vw;
+}
+
+.cColumns4 {
+  grid-template-columns: repeat(4, 1fr);
+  margin: 3vw;
+}
+.cColumns3 {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1vw;
+}
+.cColumns2R {
+  grid-template-columns: 2.5fr 1fr;
+  margin: 3vw;
+}
+.cColumns3R {
+  grid-template-columns: 2fr 1fr 0.3fr;
+  margin: 3vw;
+}
+.cColumns1L {
+  grid-template-columns: 1fr;
+  margin: 0.5vw;
+}
+.cColumns2L {
+  grid-template-columns: 0.5fr 4fr;
+  margin: 0.5vw;
+}
+.cColumns3L {
+  grid-template-columns: 0.6fr repeat(2, 2fr);
+  margin: 0.5vw;
+}
+
+.cColumns4L {
+  grid-template-columns: 0.1fr repeat(3, 1fr);
+  margin: 2vw;
+}
+.cColumns5L {
+  grid-template-columns: 0.1fr repeat(4, 1fr);
+  margin: 2vw;
+}
+.cColumns2 {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 3vw;
+}
+
+.l-Green {
+  background: rgb(143, 230, 143);
+}
+.d-Green {
+  color: #61dafb;
+}
+
+.bCeleste {
+  background: lightblue;
+}
+
+.cCeleste {
+  color: lightblue;
+}
+
+.yellow {
+  background: yellow;
+}
+.cRed {
+  color: rgb(239, 83, 80);
+}
+
+.bDark {
+  background: linear-gradient(to bottom right, #261515, #113f4e);
+}
+.bDark-black {
+  background: linear-gradient(to bottom right, #261515, #041711);
+}
+
+.rellenoDegradado {
+  background: linear-gradient(to bottom right, #261515, #113f4e);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.transparente {
+  background: rgba(0, 0, 255, 0.05);
+}
+.imagenFondo {
+  background-image: url("https://energiatoday.com/wp-content/uploads/2020/04/clima_1586074585.jpg");
+
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+.img {
+  height: 22vw;
+}
+
+.img10 {
+  height: 10vw;
+}
+.vw2 {
+  width: 2vw;
+}
+.vh2 {
+  height: 2vh;
+}
+.img20 {
+  height: 20vw;
+}
+
+.img30 {
+  height: 30vw;
+}
+
+.pR {
+  position: relative;
+}
+.pFRight {
+  position: fixed;
+  right: 2vw;
+}
+.pFTop {
+  position: fixed;
+  top: 2vw;
+}
+
+.pFBotton {
+  position: fixed;
+  bottom: 0.1vw;
+}
+.pA {
+  position: absolute;
+}

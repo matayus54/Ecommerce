@@ -1,0 +1,108 @@
+.estiloNeonAzul{
+
+    box-shadow:
+    /* text-shadow:  */
+    0 0 5px rgba(0,178,255,1),
+    0 0 10px rgba(0,178,255,1),
+    0 0 20px rgba(0,178,255,1),
+    0 0 40px rgba(38,104,127,1),
+    0 0 80px rgba(38,104,127,1),
+    0 0 90px rgba(38,104,127,1),
+    0 0 100px rgba(38,104,127,1),
+    0 0 140px rgba(38,104,127,1),
+    0 0 180px rgba(38,104,127,1);
+
+    background: linear-gradient(to bottom right, #261515, #113F4E); 
+    
+} 
+
+
+.estiloNeonRosado{
+
+    box-shadow:
+    /* text-shadow:  */
+    0 0 5px rgb(255, 0, 157),
+    0 0 10px rgb(255, 0, 200),
+    0 0 20px rgb(255, 0, 149),
+    0 0 40px rgb(127, 38, 115),
+    0 0 80px rgb(127, 38, 97),
+    0 0 90px rgb(127, 38, 115),
+    0 0 100px rgb(127, 38, 105),
+    0 0 140px rgb(127, 38, 112),
+    0 0 180px rgb(127, 38, 112);
+    background: linear-gradient(to bottom right, #330329, #d12ea8); 
+    
+} 
+
+
+
+.estiloNeonVerde{
+
+    box-shadow:
+    /* text-shadow: */
+    0 0 5px rgb(0, 255, 42),
+    0 0 10px rgb(0, 255, 85),
+    0 0 20px rgb(0, 255, 98),
+    0 0 40px rgb(38, 127, 53),
+    0 0 80px rgb(38, 127, 50),
+    0 0 90px rgb(38, 127, 45),
+    0 0 100px rgb(38, 127, 53),
+    0 0 140px rgb(38, 127, 72),
+    0 0 180px rgb(38, 127, 72);
+
+    background: linear-gradient(to bottom right, #261515, #09441b); 
+}
+
+.estiloNeonAmarillo{
+
+    box-shadow:
+    /* text-shadow: */
+    0 0 5px rgb(217, 255, 0),
+    0 0 10px rgb(208, 255, 0),
+    0 0 20px rgb(217, 255, 0),
+    0 0 40px rgb(126, 127, 38),
+    0 0 80px rgb(126, 127, 38),
+    0 0 90px rgb(114, 127, 38),
+    0 0 100px rgb(108, 127, 38),
+    0 0 140px rgb(114, 127, 38),
+    0 0 180px rgb(118, 127, 38);
+
+    background: linear-gradient(to bottom right, #261515, #3b4409); 
+}
+
+
+.estiloNeonRojo{
+
+    box-shadow:
+    /* text-shadow: */
+    0 0 5px rgb(255, 0, 0),
+    0 0 10px rgb(255, 60, 0),
+    0 0 20px rgb(255, 60, 0),
+    0 0 40px rgb(127, 63, 38),
+    0 0 80px rgb(127, 48, 38),
+    0 0 90px rgb(127, 63, 38),
+    0 0 100px rgb(127, 44, 38),
+    0 0 140px rgb(127, 41, 38),
+    0 0 180px rgb(127, 38, 38);
+
+    background: linear-gradient(to bottom right, #261515, #441209); 
+}
+
+
+
+.estiloNeonMorado{
+
+    box-shadow:
+    /* text-shadow: */
+    0 0 5px rgb(183, 0, 255),
+    0 0 10px rgb(225, 0, 255),
+    0 0 20px rgb(247, 0, 255),
+    0 0 40px rgb(112, 38, 127),
+    0 0 80px rgb(127, 38, 127),
+    0 0 90px rgb(120, 38, 127),
+    0 0 100px rgb(112, 38, 127),
+    0 0 140px rgb(112, 38, 127),
+    0 0 180px rgb(127, 38, 127);
+
+    background: linear-gradient(to bottom right, #261515, #3d0944); 
+}

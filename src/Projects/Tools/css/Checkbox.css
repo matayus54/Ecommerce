@@ -1,0 +1,33 @@
+.lbl {
+  display: inline-block;
+  width: 5vw;
+  height: 2vw;
+  background: #adff2f;
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.lbl::after {
+  content: "";
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  background: #eee;
+  border-radius: 100px;
+  position: absolute;
+  transition: 0.2s;
+}
+
+#switch:checked + .lbl::after {
+  left: 3vw;
+}
+
+#switch:checked + .lbl {
+  background: #6c79db;
+}
+
+#switch {
+  display: none;
+}
