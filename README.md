@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+is hosted in https://github.com/matayus54/Ecommerce
+. https://app.netlify.com/sites/snazzy-frangollo-98f835/overview
+
+## -https://snazzy-frangollo-98f835.netlify.app/
 
 ## Available Scripts
 
